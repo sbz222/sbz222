@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SpiceJet</title>
+        <link rel="stylesheet" href="spice.css">
+    </head>
+    <body>
+        <div class="logo">
+            <a href="#"><img src="sj.png"></a>
+        </div>
+        <div class="top_nav">
+            <ul style="padding: 10px;">
+                <li style="margin-left: 90px;"><a href="#">BOOK</a></li>
+                <li style="margin-left: 5px;"><a href="#">ADD-ONS</a></li>
+                <li  style="margin-left: 5px;"><a href="#">DEALS</a></li>
+                <li  style="margin-left: 5px;"><a href="#">GIFT CARD</a></li>
+                <li  style="margin-left: 5px;"><a href="#">SPICECLUB</a></li>
+                <li  style="margin-left: 5px;"><a href="#">SPICESCREEN</a></li>
+                <li style="margin-left: 5px;"><a href="#">SPICESTYLE</a></li>
+                <li style="margin-left: 5px;"><a href="#">SPICESHUTTLE</a></li>
+                <li style="margin-left: 5px;"><a href="#">CHARTER</a></li>
+                <li style="margin-left: 110px;"><a href="#">LOGIN/SIGNUP</a></li>
+            </ul>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Covid-19 Information</a></li>
+                <li><a href="#">Flight Status</a></li>
+                <li><a href="#">Check-In</a></li>
+                <li><a href="#">Manage Booking</a></li>
+            </ul>
+        </div>
+        <center>
+        <div class="radio">
+            <input type="radio" name="trip" id="oneway" value="one-way" required="required">
+            <label for="oneway">Oneway</label>
+            <input type="radio" name="trip" id="round" value="round" required="required">
+            <label for="round">Round Trip</label>
+            <input type="radio" name="trip" id="multi" value="multi" required="required">
+            <label for="multi">Multicity</label>
+        </div>
+    </center>
+        <center>
+        <div class="Place">
+            <label for="from" style="margin-left:-70px;">*FROM:</label>
+            <label for="to" style="margin-left: 60px;">*TO:</label>
+            <label for="departure" style="margin-left: 70px;">*DEPARTURE DATE:</label>
+            <label for="return" style="margin-left: 10px;">RETURN DATE:</label>
+            <label for="passengers" style="margin-left: 40px;">PASSENGERS:</label>
+            <label for="currency" style="margin-left: 70px;">CURRENCY:</label>
+            <br>
+            <select required name='from' style="margin-left: 5px;">
+                <option value="">Departure City </option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="Laos">Laos</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Vietnam">Vietnam</option>
+            </select>
+            <select required name='to' style="margin-left: 10px;">
+                <option value="">Arrival City</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="Laos">Laos</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Vietnam">Vietnam</option>
+            </select>
+            <input style="margin-left: 10px;" name="departure" type="date" id="departure" placeholder="">
+            <input style="margin-left: 10px" name="return" type="date" id="return" placeholder="">
+            <input style="margin-left: 10px" name="passengers" type="number" id="passengers" placeholder="1 ADULT" >
+            <input style="margin-left: 10px" name="currency" type="amount" id="return" placeholder="INR">
+        </center>
+        </div> 
+        <center>
+        <div class="check">
+            <input type="checkbox" name="FF" id="check" value="family & friends">
+            <label for="FF">Family & Friends</label>
+            <input type="checkbox" name="SC" id="check" value="sr. citizen">
+            <label for="SC">Sr. Citizen</label>
+            <input type="checkbox" name="AF" id="check" value="armed forces">
+            <label for="AF">Armed Forces</label>
+            <input type="checkbox" name="LTC" id="check" value=" ltc fare">
+            <label for="LTC">LTC Fare</label>
+            <input type="checkbox" name="GE" id="check" value="govt. employee">
+            <label for="GE">Govt. Employee</label>
+            <input type="checkbox" name="STU" id="check" value="student">
+            <label for="STU">Student</label>
+            <input type="checkbox" name="UC" id="check" value="unaccompained minor">
+            <label for="UC">Unaccompained Minor</label>
+            <input type="checkbox" name="HP" id="check" value="health professional">
+            <label for="HP">Health Professional</label>
+        </div>
+    </center>
+        <p>Special Assistance </p>
+        <p1>For refund requests, please write to <email>refunds@spicejet.com.</email></p1>   
+        <div class="advertise">
+            <img src="1.jpg" alt=""> 
+        </div>
+    </body>
+</html>
